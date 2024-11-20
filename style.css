@@ -461,10 +461,15 @@ margin-right: auto;
     text-decoration-skip-ink: none;
 }
 
-.main__image-cps {
+.main__image {
     margin-top: 32px;
     width: 100%;
     margin-right: 25px;
+    border-radius: 6px 0px 0px 6px;
+}
+
+.main__image-cps {
+    margin-top: 0;
     border-radius: 6px 0px 0px 6px;
 }
 }
@@ -670,10 +675,13 @@ background-color: #F8F8F8;
     text-decoration-skip-ink: none;
 }
 
-.main__image-cps {
+.main__image {
     margin-top: 7px;
     width: 100%;
     margin-right: 27px;
+}
+
+.main__image-cps {
     border-radius: 6px 0px 0px 6px;
 }
 }
