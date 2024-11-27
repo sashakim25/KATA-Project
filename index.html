@@ -5,49 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CPS: Услуги и сервисы</title>
     <link href="style.css" rel="stylesheet">
+    <link href="reset.css" rel="stylesheet">
 </head>
 <body>
     <header class="header">
         <nav class="header__nav">
             <div class="header__nav-left">
-                <button class="header__btn header__btn--menu-burger" title="Меню"></button>
+                <button class="round-icon header__btn-menu-burger" title="Меню"></button>
                 <span class="header__decor-divider-left"></span>
                 <span class="header__logo">
                     <img src="img/Group.svg" alt="Лого CPS">
                 </span>
             </div>
             <div class="header__nav-right">
-                <button class="header__btn header__btn--call" title="Позвонить"></button>
-                <button class="header__btn header__btn--chat" title="Написать"></button>
-                <button class="header__btn header__btn--profile" title="Профиль"></button>
+                <button class="round-icon header__btn-call" title="Позвонить"></button>
+                <button class="round-icon header__btn-chat" title="Написать"></button>
+                <button class="round-icon header__btn-profile" title="Профиль"></button>
                 <span class="header__decor header__decor-divider-right"></span>
-                <button class="header__btn header__btn--repair" title="Оставить заявку"></button>
-                <button class="header__btn header__btn--checkstatus" title="Статус ремонта"></button>
+                <button class="round-icon header__btn-repair" title="Оставить заявку"></button>
+                <button class="round-icon header__btn-checkstatus" title="Статус ремонта"></button>
             </div>
         </nav>
     </header>
 
     <main class="main">
         <div class="main__decor-shadow"></div>
-        <div class="main__title-and-btn-repair-checkstatus">
+        <div class="main__title-and-header-actions">
             <div class="main__title">
                 <div class="main__title-decor"></div>
                 <h1 class="main__title-text">Услуги и сервисы</h1>
             </div>
-            <div class="main__btn-repair-and-checkstatus">
-                <label class="main__label-repair-and-checkstatus"><span class="main__label-repair-and-checkstatus-text">Оставить заявку</span><button class="main__btn main__btn--repair" title="Оставить заявку"></button></label>
-                <label class="main__label-repair-and-checkstatus"><span class="main__label-repair-and-checkstatus-text">Статус ремонта</span><button class="main__btn main__btn--checkstatus" title="Статус ремонта"></button></label>
+            <div class="main__header-actions">
+                <button class="main__btn" title="Оставить заявку">
+                    <div class="main__btn-text">Оставить заявку</div>
+                    <img class="main__btn-img" src="img/repair.svg" alt="Оставить заявку">
+                </button>
+                <button class="main__btn" title="Статус ремонта">
+                    <div class="main__btn-text">Статус ремонта</div>
+                    <img class="main__btn-img" src="img/checkstatus.svg" alt="Статус ремонта">
+                </button>
             </div>
         </div>
         <nav class="main__nav">
             <ul class="main__nav-list">
-            <li class="main__nav-list-btn">Ремонтируемые бренды</li>
-            <li class="main__nav-list-btn">Ремонтируемые устройства</li>
-            <li class="main__nav-list-btn">Цены и услуги</li>
-            <li class="main__nav-list-btn">Адреса сервисных центров</li>
-            <li class="main__nav-list-btn">Специальные цены</li>
-            <li class="main__nav-list-btn">Отзывы</li>
+            <li class="main__nav-list-btn main__nav-list-1btn">
+                <a class="main__nav-list-link" href="#">Ремонтируемые бренды</a></li>
+            <li class="main__nav-list-btn">
+                <a class="main__nav-list-link" href="#">Ремонтируемые устройства</a></li>
+            <li class="main__nav-list-btn">
+                <a class="main__nav-list-link" href="#">Цены и услуги</a></li>
+            <li class="main__nav-list-btn">
+                <a class="main__nav-list-link" href="#">Адреса сервисных центров</a></li>
+            <li class="main__nav-list-btn">
+                <a class="main__nav-list-link" href="#">Специальные цены</a></li>
+            <li class="main__nav-list-btn">
+                <a class="main__nav-list-link" href="#">Отзывы</a></li>
             </ul>
+            <div class="main__nav-gradient"></div>
         </nav>
         <article class="main__about-us">
             <div class="main__text-about-us-with-read-more">
@@ -55,10 +69,10 @@
                     <p class="main__text-about-us--p1">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p><br>
                     <p class="main__text-about-us--p2">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
                 </section>
-                <label class="main__btn-read-more">
-                    <button class="main__btn-read-more--icon"></button>
-                    <span class="main__btn-read-more--text">Читать далее</span>
-                </label>
+                <button class="read-more">
+                    <img class="read-more-icon" src="img/expand.svg" alt="Читать далее">
+                    <div class="read-more-text">Читать далее</div>
+                </button>
             </div>
             <div class="main__image">
                 <img class="main__image-cps" src="img/MG3223.png"></img>
